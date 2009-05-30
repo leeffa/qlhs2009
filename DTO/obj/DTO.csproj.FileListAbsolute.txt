@@ -1,0 +1,5 @@
+D:\Tin Hoc\Presentation\DTO\obj\Debug\ResolveAssemblyReference.cache
+D:\Tin Hoc\Presentation\DTO\bin\Debug\DTO.dll
+D:\Tin Hoc\Presentation\DTO\bin\Debug\DTO.pdb
+D:\Tin Hoc\Presentation\DTO\obj\Debug\DTO.dll
+D:\Tin Hoc\Presentation\DTO\obj\Debug\DTO.pdb

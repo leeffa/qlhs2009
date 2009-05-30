@@ -1,0 +1,11 @@
+D:\Tin Hoc\Presentation\Presentation\obj\Debug\ResolveAssemblyReference.cache
+D:\Tin Hoc\Presentation\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+D:\Tin Hoc\Presentation\Presentation\obj\Debug\Presentation.csproj.GenerateResource.Cache
+D:\Tin Hoc\Presentation\Presentation\bin\Debug\Presentation.exe
+D:\Tin Hoc\Presentation\Presentation\bin\Debug\Presentation.pdb
+D:\Tin Hoc\Presentation\Presentation\bin\Debug\BUS.dll
+D:\Tin Hoc\Presentation\Presentation\bin\Debug\DTO.dll
+D:\Tin Hoc\Presentation\Presentation\bin\Debug\BUS.pdb
+D:\Tin Hoc\Presentation\Presentation\bin\Debug\DTO.pdb
+D:\Tin Hoc\Presentation\Presentation\obj\Debug\Presentation.exe
+D:\Tin Hoc\Presentation\Presentation\obj\Debug\Presentation.pdb
