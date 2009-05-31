@@ -5,3 +5,10 @@ D:\Tin Hoc\Presentation\DAO\bin\Debug\DTO.dll
 D:\Tin Hoc\Presentation\DAO\bin\Debug\DTO.pdb
 D:\Tin Hoc\Presentation\DAO\obj\Debug\DAO.dll
 D:\Tin Hoc\Presentation\DAO\obj\Debug\DAO.pdb
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\DAO\bin\Debug\DAO.dll
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\DAO\bin\Debug\DAO.pdb
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\DAO\bin\Debug\DTO.dll
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\DAO\bin\Debug\DTO.pdb
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\DAO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\DAO\obj\Debug\DAO.dll
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\DAO\obj\Debug\DAO.pdb

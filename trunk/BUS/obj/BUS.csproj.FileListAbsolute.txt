@@ -7,3 +7,12 @@ D:\Tin Hoc\Presentation\BUS\bin\Debug\DTO.pdb
 D:\Tin Hoc\Presentation\BUS\bin\Debug\DAO.pdb
 D:\Tin Hoc\Presentation\BUS\obj\Debug\BUS.dll
 D:\Tin Hoc\Presentation\BUS\obj\Debug\BUS.pdb
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\BUS\bin\Debug\BUS.dll
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\BUS\bin\Debug\BUS.pdb
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\BUS\bin\Debug\DAO.dll
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\BUS\bin\Debug\DTO.dll
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\BUS\bin\Debug\DTO.pdb
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\BUS\bin\Debug\DAO.pdb
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\BUS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\BUS\obj\Debug\BUS.dll
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\BUS\obj\Debug\BUS.pdb

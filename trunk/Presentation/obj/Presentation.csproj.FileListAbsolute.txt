@@ -9,3 +9,14 @@ D:\Tin Hoc\Presentation\Presentation\bin\Debug\BUS.pdb
 D:\Tin Hoc\Presentation\Presentation\bin\Debug\DTO.pdb
 D:\Tin Hoc\Presentation\Presentation\obj\Debug\Presentation.exe
 D:\Tin Hoc\Presentation\Presentation\obj\Debug\Presentation.pdb
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\obj\Debug\Presentation.exe
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\obj\Debug\Presentation.pdb
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\bin\Debug\Presentation.exe
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\bin\Debug\Presentation.pdb
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\bin\Debug\BUS.dll
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\bin\Debug\DTO.dll
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\bin\Debug\BUS.pdb
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\bin\Debug\DTO.pdb
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\obj\Debug\Presentation.csproj.GenerateResource.Cache
