@@ -20,3 +20,8 @@ C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\bin\Debug\DTO.pdb
 C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\obj\Debug\Presentation.Properties.Resources.resources
 C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\obj\Debug\Presentation.csproj.GenerateResource.Cache
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\obj\Debug\Presentation.ThemHocSinh.resources
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\bin\Debug\DAO.dll
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\bin\Debug\DAO.pdb
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\obj\Debug\Presentation.ThanNhan.resources
+C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\Presentation\obj\Debug\Presentation.MonHoc.resources

@@ -6,9 +6,9 @@ using DTO;
 using System.Data.OleDb;
 namespace DAO
 {
-    class HocSinhDAO
+   public   class HocSinhDAO
     {
-        public void Insert(HocSinhDTO hs)
+        public static void Insert(HocSinhDTO hs)
         {
             OleDbConnection cn = DataProvider.ConnectionData();
             string StrSql = "insert into HOCSINH (MaHS,NgaySinh,HoTen,DiaChi,HanhKiem,SoDienThoai,NgayNhapTruong,HinhAnh,MaLop) values (?,?,?,?,?,?,?,?,?)";
@@ -36,11 +36,11 @@ namespace DAO
              cmd.ExecuteNonQuery();
              cn.Close();
          }
-        public void Update(HocSinhDTO hs)
+        public static  void Update(HocSinhDTO hs)
         {
             OleDbConnection cn = DataProvider.ConnectionData();
-            String StrSql = "Update HOCSINH set  NgaySinh=? and HoTen=? and DiaChi=? and HanhKiem=?" +
-            " and SoDienThoai=? and NgayNhapTruong=? and HinhAnh=? and MaLop=? where MaHS=?";
+            String StrSql = "Update HOCSINH set  NgaySinh=? , HoTen=? , DiaChi=? , HanhKiem=?" +
+            " , SoDienThoai=? , NgayNhapTruong=? , HinhAnh=? , MaLop=?  where MaHS=?";
 
             OleDbCommand cmd = new OleDbCommand(StrSql, cn);
 
@@ -68,7 +68,7 @@ namespace DAO
             cmd.ExecuteNonQuery();
             cn.Close();
         }
-        public void Delete(string maHS)
+        public static  void Delete(string maHS)
         {
             OleDbConnection cn = DataProvider.ConnectionData();
             string Sql = "Delete from HOCSINH where MaHS=?";
@@ -78,7 +78,7 @@ namespace DAO
             cmd.ExecuteNonQuery();
             cn.Close();
         }
-        public IList SelectAll()
+        public static  IList SelectAll()
         {
             OleDbConnection cn = DataProvider.ConnectionData();
             string Sql = "Select * from HOCSINH";
@@ -103,7 +103,7 @@ namespace DAO
             cn.Close();
             return list;
         }
-        public HocSinhDTO  SelectByID(string ma)
+        public static  HocSinhDTO  SelectByID(string ma)
         {
             OleDbConnection cn = DataProvider.ConnectionData();
             string Sql = "Select * from HOCSINH where MaHS=?";

@@ -42,12 +42,30 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="MonHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonHoc.Designer.cs">
+      <DependentUpon>MonHoc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MonHoc.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MonHoc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThanNhan.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ThanNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemHocSinh.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ThemHocSinh.cs</DependentUpon>
     </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -61,6 +79,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ThanNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThanNhan.Designer.cs">
+      <DependentUpon>ThanNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemHocSinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemHocSinh.Designer.cs">
+      <DependentUpon>ThemHocSinh.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
