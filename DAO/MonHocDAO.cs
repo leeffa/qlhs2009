@@ -6,11 +6,11 @@ using System.Data.OleDb;
 using System.Collections;
 namespace DAO
 {
-    class MonHocDAO
+   public  class MonHocDAO
     {
-        public void Insert(MonHocDTO mh)
+        public static  void Insert(MonHocDTO mh)
         {
-            OleDbConnection cn = new OleDbConnection();
+            OleDbConnection cn = DataProvider.ConnectionData();
             string SQL = "insert into MONHOC (MaMH,TenMH) values (?,?)";
             OleDbCommand cmd = new OleDbCommand(SQL, cn);
             cmd.Parameters.Add("@MaMH", OleDbType.VarWChar);
@@ -20,7 +20,7 @@ namespace DAO
             cmd.ExecuteNonQuery();
             cn.Close();
         }
-        public void Update(MonHocDTO mh)
+        public static void Update(MonHocDTO mh)
         {
             OleDbConnection cn = DataProvider.ConnectionData();
             string sql = "Update MONHOC set  TenMH=? where MaMH=?";
@@ -32,7 +32,7 @@ namespace DAO
             cmd.ExecuteNonQuery();
             cn.Close();
         }
-        public void Delete(string ma)
+        public static void Delete(string ma)
         {
             OleDbConnection cn = DataProvider.ConnectionData();
             string sql = "Delete From MONHOC where MaMH=?";
@@ -42,7 +42,7 @@ namespace DAO
             cmd.ExecuteNonQuery();
             cn.Close();
         }
-        public IList SelectAll()
+        public static IList SelectAll()
         {
             OleDbConnection cn = DataProvider.ConnectionData();
             string sql = "select * from MONHOC";
@@ -60,7 +60,7 @@ namespace DAO
             cn.Close();
             return list;
         }
-        public MonHocDTO SelectByID(string ma)
+        public static MonHocDTO SelectByID(string ma)
         {
             OleDbConnection cn = DataProvider.ConnectionData();
             string sql = "select * from MONHOC where MaMH=?";

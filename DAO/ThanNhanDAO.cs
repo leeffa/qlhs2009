@@ -6,9 +6,9 @@ using System.Data.OleDb;
 using DTO;
 namespace DAO
 {
-    class ThanNhanDAO
+   public  class ThanNhanDAO
     {
-        public void Insert(ThanNhanDTO tn)
+        public static  void Insert(ThanNhanDTO tn)
         {
             OleDbConnection cn = DataProvider.ConnectionData();
             string sql = "insert into THANNHAN (Ma,MaHS,HoTen,QuanHe) values(?,?,?,?)";
@@ -19,16 +19,16 @@ namespace DAO
             cmd.Parameters.Add("@QuanHe", OleDbType.VarWChar);
             cmd.Parameters["@Ma"].Value = tn.Ma;
             cmd.Parameters["@MaHS"].Value = tn.MaHS;
-            cmd.Parameters["HoTen"].Value = tn.HoTen;
-            cmd.Parameters["QuanHe"].Value = tn.QuanHe;
+            cmd.Parameters["@HoTen"].Value = tn.HoTen;
+            cmd.Parameters["@QuanHe"].Value = tn.QuanHe;
 
             cmd.ExecuteNonQuery();
             cn.Close();
         }
-        public void Update(ThanNhanDTO tn)
+        public static void Update(ThanNhanDTO tn)
         {
             OleDbConnection cn = DataProvider.ConnectionData();
-            string sql = "update THANNHAN set MaHS=? and HoTen=? and QuanHe=? where Ma=?";
+            string sql = "update THANNHAN set MaHS=? , HoTen=? , QuanHe=? where Ma=?";
             OleDbCommand cmd = new OleDbCommand(sql, cn);
           
             cmd.Parameters.Add("@MaHS", OleDbType.VarWChar);
@@ -37,13 +37,13 @@ namespace DAO
             cmd.Parameters.Add("@Ma", OleDbType.VarWChar);
             cmd.Parameters["@Ma"].Value = tn.Ma;
             cmd.Parameters["@MaHS"].Value = tn.MaHS;
-            cmd.Parameters["HoTen"].Value = tn.HoTen;
-            cmd.Parameters["QuanHe"].Value = tn.QuanHe;
+            cmd.Parameters["@HoTen"].Value = tn.HoTen;
+            cmd.Parameters["@QuanHe"].Value = tn.QuanHe;
 
             cmd.ExecuteNonQuery();
             cn.Close();
         }
-        public void Delete(string ma)
+        public static void Delete(string ma)
         {
             OleDbConnection cn = DataProvider.ConnectionData();
             string sql = "Delete from THANNHAN where Ma=?";
@@ -53,7 +53,7 @@ namespace DAO
             cmd.ExecuteNonQuery();
             cn.Close();
         }
-        public IList SelectAll()
+        public static  IList SelectAll()
         {
             OleDbConnection cn = DataProvider.ConnectionData();
             string sql = "select * from THANNHAN";
@@ -73,7 +73,7 @@ namespace DAO
             cn.Close();
             return list;
         }
-        public ThanNhanDTO  SelectByID(string ma)
+        public static ThanNhanDTO  SelectByID(string ma)
         {
             OleDbConnection cn = DataProvider.ConnectionData();
             string sql = "select * from THANNHAN where Ma=?";
