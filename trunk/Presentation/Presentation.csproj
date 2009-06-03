@@ -42,6 +42,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPhanCongDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhanCongDay.Designer.cs">
+      <DependentUpon>frmPhanCongDay.cs</DependentUpon>
+    </Compile>
     <Compile Include="MonHoc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -50,6 +56,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmPhanCongDay.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPhanCongDay.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MonHoc.resx">
       <SubType>Designer</SubType>
       <DependentUpon>MonHoc.cs</DependentUpon>
@@ -58,6 +68,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyGiaoVien.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>QuanLyGiaoVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThanNhan.resx">
       <SubType>Designer</SubType>
@@ -70,6 +84,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -79,6 +94,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="QuanLyGiaoVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyGiaoVien.Designer.cs">
+      <DependentUpon>QuanLyGiaoVien.cs</DependentUpon>
     </Compile>
     <Compile Include="ThanNhan.cs">
       <SubType>Form</SubType>
@@ -97,6 +118,10 @@
     <ProjectReference Include="..\BUS\BUS.csproj">
       <Project>{81865D74-67DB-4822-B129-DE931E342345}</Project>
       <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{6943553A-D9E4-4B84-9699-244E546F16F8}</Project>
+      <Name>DAO</Name>
     </ProjectReference>
     <ProjectReference Include="..\DTO\DTO.csproj">
       <Project>{AA54A288-0785-428D-986E-9DB23FAC7D50}</Project>

@@ -281,7 +281,7 @@
             this.btn_chon.TabIndex = 3;
             this.btn_chon.Text = "Tùy chọn";
             this.btn_chon.UseVisualStyleBackColor = true;
-            this.btn_chon.Click += new System.EventHandler(this.btn_chon_Click);
+            //this.btn_chon.Click += new System.EventHandler(this.btn_chon_Click);
             // 
             // label8
             // 
