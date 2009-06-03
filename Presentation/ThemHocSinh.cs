@@ -18,12 +18,13 @@ namespace Presentation
             InitializeComponent();
         }
         string hinhanh = "";
-        private void btn_chon_Click(object sender, EventArgs e)
+       /* private void btn_chon_Click(object sender, EventArgs e)
         {
             if (openFileDialogHinhAnh.ShowDialog() == DialogResult.OK)
             {
                 string SourceFilePath = openFileDialogHinhAnh.FileName;
                 string SourceFileName = openFileDialogHinhAnh.SafeFileName;
+               
                 string DesFilePath = Application.StartupPath + "\\HinhAnhHocSinh\\" + SourceFileName;
                 if(File.Exists(DesFilePath)==false)
                 File.Copy(SourceFilePath, DesFilePath,false);
@@ -31,7 +32,7 @@ namespace Presentation
                 txt_HinhAnh.Text = SourceFilePath;
                 pictureBox1.Image = Image.FromFile(SourceFilePath);
             }
-        }
+        }*/
 
         private void btn_Them_Click(object sender, EventArgs e)
         {

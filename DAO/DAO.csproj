@@ -34,6 +34,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataProvider.cs" />
+    <Compile Include="DayLopDAO.cs" />
+    <Compile Include="GiaoVienDAO.cs" />
     <Compile Include="HocSinhDAO.cs" />
     <Compile Include="MonHocDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
