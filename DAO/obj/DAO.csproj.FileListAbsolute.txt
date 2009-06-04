@@ -12,3 +12,10 @@ C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\DAO\bin\Debug\DTO.pdb
 C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\DAO\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\DAO\obj\Debug\DAO.dll
 C:\Users\NTPHUC\Desktop\New Folder\qlhs2009\DAO\obj\Debug\DAO.pdb
+C:\Documents and Settings\Administrator\Desktop\qlhs\DAO\bin\Debug\DAO.dll
+C:\Documents and Settings\Administrator\Desktop\qlhs\DAO\bin\Debug\DAO.pdb
+C:\Documents and Settings\Administrator\Desktop\qlhs\DAO\bin\Debug\DTO.dll
+C:\Documents and Settings\Administrator\Desktop\qlhs\DAO\bin\Debug\DTO.pdb
+C:\Documents and Settings\Administrator\Desktop\qlhs\DAO\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\qlhs\DAO\obj\Debug\DAO.dll
+C:\Documents and Settings\Administrator\Desktop\qlhs\DAO\obj\Debug\DAO.pdb
