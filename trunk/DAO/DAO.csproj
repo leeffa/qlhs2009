@@ -37,6 +37,7 @@
     <Compile Include="DayLopDAO.cs" />
     <Compile Include="GiaoVienDAO.cs" />
     <Compile Include="HocSinhDAO.cs" />
+    <Compile Include="LopHocDAO.cs" />
     <Compile Include="MonHocDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThanNhanDAO.cs" />
