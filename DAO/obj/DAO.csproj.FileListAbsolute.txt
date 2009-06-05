@@ -19,3 +19,10 @@ C:\Documents and Settings\Administrator\Desktop\qlhs\DAO\bin\Debug\DTO.pdb
 C:\Documents and Settings\Administrator\Desktop\qlhs\DAO\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\Desktop\qlhs\DAO\obj\Debug\DAO.dll
 C:\Documents and Settings\Administrator\Desktop\qlhs\DAO\obj\Debug\DAO.pdb
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\DAO\bin\Debug\DAO.dll
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\DAO\bin\Debug\DAO.pdb
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\DAO\bin\Debug\DTO.dll
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\DAO\bin\Debug\DTO.pdb
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\DAO\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\DAO\obj\Debug\DAO.dll
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\DAO\obj\Debug\DAO.pdb

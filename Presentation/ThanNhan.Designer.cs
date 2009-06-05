@@ -46,6 +46,7 @@
             this.btn_Sua = new System.Windows.Forms.Button();
             this.btn_Xoa = new System.Windows.Forms.Button();
             this.btn_Them = new System.Windows.Forms.Button();
+            this.btnThoat = new System.Windows.Forms.Button();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -157,6 +158,7 @@
             // 
             // splitContainer2.Panel2
             // 
+            this.splitContainer2.Panel2.Controls.Add(this.btnThoat);
             this.splitContainer2.Panel2.Controls.Add(this.btn_Sua);
             this.splitContainer2.Panel2.Controls.Add(this.btn_Xoa);
             this.splitContainer2.Panel2.Controls.Add(this.btn_Them);
@@ -205,7 +207,7 @@
             // 
             // btn_Sua
             // 
-            this.btn_Sua.Location = new System.Drawing.Point(251, 21);
+            this.btn_Sua.Location = new System.Drawing.Point(199, 12);
             this.btn_Sua.Name = "btn_Sua";
             this.btn_Sua.Size = new System.Drawing.Size(81, 27);
             this.btn_Sua.TabIndex = 0;
@@ -215,7 +217,7 @@
             // 
             // btn_Xoa
             // 
-            this.btn_Xoa.Location = new System.Drawing.Point(164, 21);
+            this.btn_Xoa.Location = new System.Drawing.Point(112, 12);
             this.btn_Xoa.Name = "btn_Xoa";
             this.btn_Xoa.Size = new System.Drawing.Size(81, 27);
             this.btn_Xoa.TabIndex = 0;
@@ -225,13 +227,23 @@
             // 
             // btn_Them
             // 
-            this.btn_Them.Location = new System.Drawing.Point(77, 21);
+            this.btn_Them.Location = new System.Drawing.Point(25, 12);
             this.btn_Them.Name = "btn_Them";
             this.btn_Them.Size = new System.Drawing.Size(81, 27);
             this.btn_Them.TabIndex = 0;
             this.btn_Them.Text = "Thêm";
             this.btn_Them.UseVisualStyleBackColor = true;
             this.btn_Them.Click += new System.EventHandler(this.btn_Them_Click);
+            // 
+            // btnThoat
+            // 
+            this.btnThoat.Location = new System.Drawing.Point(351, 12);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(81, 27);
+            this.btnThoat.TabIndex = 0;
+            this.btnThoat.Text = "Thoát";
+            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // ThanNhan
             // 
@@ -274,5 +286,6 @@
         private System.Windows.Forms.Button btn_Sua;
         private System.Windows.Forms.Button btn_Xoa;
         private System.Windows.Forms.Button btn_Them;
+        private System.Windows.Forms.Button btnThoat;
     }
 }

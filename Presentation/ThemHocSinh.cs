@@ -112,5 +112,10 @@ namespace Presentation
 
             ThemHocSinh_Load(sender, e);
         }
+
+        private void btn_chon_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
