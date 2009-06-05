@@ -83,5 +83,10 @@ namespace Presentation
              txt_quanhe.Text= tn.QuanHe;
              txt_maHS.Text= tn.MaHS;
         }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

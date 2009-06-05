@@ -83,5 +83,10 @@ namespace Presentation
             txt_ma.Text = mh.MaMH;
             txt_ten.Text = mh.TenMH;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -25,3 +25,12 @@ C:\Documents and Settings\Administrator\Desktop\qlhs\BUS\bin\Debug\DAO.pdb
 C:\Documents and Settings\Administrator\Desktop\qlhs\BUS\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\Desktop\qlhs\BUS\obj\Debug\BUS.dll
 C:\Documents and Settings\Administrator\Desktop\qlhs\BUS\obj\Debug\BUS.pdb
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\BUS\bin\Debug\BUS.dll
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\BUS\bin\Debug\BUS.pdb
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\BUS\bin\Debug\DAO.dll
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\BUS\bin\Debug\DTO.dll
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\BUS\bin\Debug\DTO.pdb
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\BUS\bin\Debug\DAO.pdb
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\BUS\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\BUS\obj\Debug\BUS.dll
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\BUS\obj\Debug\BUS.pdb

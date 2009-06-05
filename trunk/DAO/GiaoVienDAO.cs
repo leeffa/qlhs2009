@@ -213,7 +213,7 @@ namespace DAO
 
                 OleDbConnection cn = DataProvider.ConnectionData();
                 //tao chuoi ket noi
-                string cnstring = "select * from GIAOVIEN where MaGV=@MaGV";
+                string cnstring = "select * from GIAOVIEN where MaGV=?";
 
                 try
                 {
@@ -229,6 +229,58 @@ namespace DAO
                     GiaoVienDTO gvdto_result = new GiaoVienDTO();
                     gvdto_result =(GiaoVienDTO) cmd.ExecuteScalar();
                     return gvdto_result;
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+                finally
+                {
+                    cn.Close();            //dong ket noi
+
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
+        public static GiaoVienDTO Tra_Cuu_MaGV(String ma)
+        {
+            try
+            {
+                //tao ket noi  
+
+                OleDbConnection cn = DataProvider.ConnectionData();
+                //tao chuoi ket noi
+                string cnstring = "select * from GIAOVIEN where MaGV=?";
+
+                try
+                {
+                    //dung OleDbCommand de thuc thi
+
+                    //khoi tao OleDbCommand cmd
+                    OleDbCommand cmd = new OleDbCommand(cnstring, cn);
+                    //khai bao cac tham so
+                    cmd.Parameters.Add("@MaGV", OleDbType.WChar);
+                    //gan gia tri cho cac tham so
+                    cmd.Parameters["@MaGV"].Value = ma;
+
+
+                    GiaoVienDTO gvdto = new GiaoVienDTO();
+                    OleDbDataReader dr;
+                    dr = cmd.ExecuteReader();
+                    while (dr.Read())
+                    {
+                        gvdto = new GiaoVienDTO();
+                        gvdto.MaGV = dr["MaGV"].ToString();
+                        gvdto.HoTen = dr["HoTen"].ToString();
+                        gvdto.MonDay = dr["MonDay"].ToString();
+                       
+                    }
+                    dr.Close();
+                    return gvdto;
                 }
                 catch (Exception ex)
                 {

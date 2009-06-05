@@ -44,3 +44,25 @@ C:\Documents and Settings\Administrator\Desktop\qlhs\Presentation\obj\Debug\Pres
 C:\Documents and Settings\Administrator\Desktop\qlhs\Presentation\obj\Debug\Presentation.ThemHocSinh.resources
 C:\Documents and Settings\Administrator\Desktop\qlhs\Presentation\obj\Debug\Presentation.csproj.GenerateResource.Cache
 C:\Documents and Settings\Administrator\Desktop\qlhs\Presentation\obj\Debug\Presentation.QuanLyLopHoc.resources
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\obj\Debug\Presentation.exe
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\obj\Debug\Presentation.pdb
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\obj\Debug\Presentation.frmDangNhap.resources
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\obj\Debug\Presentation.frmDiem.resources
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\obj\Debug\Presentation.frmMain.resources
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\obj\Debug\Presentation.frmPhanCongDay.resources
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\obj\Debug\Presentation.MonHoc.resources
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\obj\Debug\Presentation.QuanLyGiaoVien.resources
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\obj\Debug\Presentation.QuanLyLopHoc.resources
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\obj\Debug\Presentation.ThanNhan.resources
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\obj\Debug\Presentation.ThemHocSinh.resources
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\obj\Debug\Presentation.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\bin\Debug\Presentation.exe
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\bin\Debug\Presentation.pdb
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\bin\Debug\BUS.dll
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\bin\Debug\DAO.dll
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\bin\Debug\DTO.dll
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\bin\Debug\BUS.pdb
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\bin\Debug\DAO.pdb
+C:\Documents and Settings\Administrator\Desktop\QLHS 13\Presentation\bin\Debug\DTO.pdb
